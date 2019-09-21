@@ -1,0 +1,138 @@
+body {
+	margin: 40px 40px 40px 40px;
+	background-color: #02010a;
+	font-family: "Dancing Script"
+}
+
+.cabecera h1 {
+	background-color:gray;
+	padding: 2%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color : white;
+	text-shadow: #02010a 6px 6px 5px;
+	text-align : center;
+}
+
+.cabecera h1 div {
+	text-align : center;
+	color : white;
+	float : right;
+}
+
+.contenido {
+	background-color:#82c3a6;
+	padding: 2%;
+	margin-top : -18px;
+	color : white;
+	text-shadow: #02010a 6px 6px 5px; ;
+}
+
+.contenido1 {
+	display: flex; 
+	flex-direction: COLUMN;
+	background-color:#d5c75f;
+	margin-top : -18px;
+}
+
+footer  {
+	background-color:  #C6d5c5;
+	padding: 20px;
+	margin-top : 1px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align : left;
+	font-size : 18px;
+}	
+
+.footer1{
+	height : 185px; 
+	width : 350px;
+	padding : 10px;
+	margin : 15px;
+	background-color: #C6d5c5;
+	font-weight : bold;
+	font-size : 18px;
+}
+
+.footer1 h1 {
+	text-shadow: #02010a 6px 6px 5px;
+}
+
+.footer2 {
+	height : 185px; 
+	width : 350px;
+	padding : 10px;
+	margin : 5px;
+	background-color: #C6d5c5;
+	font-weight : bold;
+	font-size : 18px;
+}
+
+.footer2 h1 {
+	text-shadow: #02010a 6px 6px 5px;
+}
+
+.footer3 {
+	height : 205px; 
+	width : 350px;
+	padding : 10px;
+	margin : 5px;
+	background-color: #C6d5c5;
+	font-weight : bold;
+	font-size : 18px;
+}
+
+.footer3 h1 {
+	text-shadow: #02010a 6px 6px 5px;
+}
+
+.footer3 href {
+	margin-left : 75px;
+}
+
+.footer4 {
+	height : 185px; 
+	width : 350px;
+	padding : 10px;
+	margin : 5px;
+	background-color: #C6d5c5;
+	font-weight : bold;
+	font-size : 18px;
+}
+
+.footer4 h1 {
+	text-shadow: #02010a 6px 6px 5px;
+}
+
+.imagen1 {
+	padding: 10px;
+	margin : 10px;
+}
+
+@media screen {
+	.imagen2 {
+	width:90%;
+	margin: 45px;		
+	padding-right: 0px;
+	transition: transform 1s;
+    }
+	.imagen2:hover {
+    transform: rotate(10deg);
+	box-shadow: 12px 12px 12px 12px #82c3a6;
+	}
+}
+
+@media screen {
+	.imagen3 {
+	width:90%;
+	margin: 45px;		
+	padding-right: 0px;
+	transition: transform 1s;
+    }
+	.imagen3:hover {
+    transform: translate(5px, -20px);
+	box-shadow: 12px 12px 12px 12px #82c3a6;
+	
+	}
+}
